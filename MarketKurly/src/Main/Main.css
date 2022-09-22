@@ -89,6 +89,15 @@ html, body{
   background-color: transparent;
   border: none;
 }
+.up_logo_btn1::after{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 14px;
+  margin-top: 5px;
+  margin-left: 11px;
+  background-color: rgb(226, 226, 226);
+}
 .up_logo_btn2{
   flex-shrink: 0;
   font-size: 18px;
@@ -102,6 +111,16 @@ html, body{
   overflow: visible;
   background-color: transparent;
   border: none;
+}
+.up_logo_btn2::after{
+  content: "";
+  position: absolute;
+  display: block;
+  background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSI3IiB2aWV3Qm94PSIwIDAgNyA3IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgPHBhdGggZD0iTTUuMTA4IDd2LS4wMDdMMS45MTEgMi41NzdWN0guMDQ2VjBoMS44NjdsMy4xOTYgNC40MTlWMGgxLjg2N3Y3SDUuMTA4eiIgZmlsbD0iI0ZBNjIyRiIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=) 0px 0px no-repeat;
+  width: 10px;
+  height: 10px;
+  top: 3px;
+  right: -13px;
 }
 .up_searchbar_position{
   position: relative;
